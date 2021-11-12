@@ -565,7 +565,7 @@ class Sketch {
           this.scene.remove(segment.mesh);
         });
         this.tunnel = [];
-        this.setSegmentInitialState();
+        this.setTunnel();
       });
 
     // other
